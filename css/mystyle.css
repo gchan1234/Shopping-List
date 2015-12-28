@@ -1,0 +1,63 @@
+body {
+	padding-top: 50px;
+}
+
+#title-bar {
+	font-size: 200%;
+}
+
+.container {
+	box-sizing: border-box;
+	width: 1050px;
+}
+
+#topContainer {
+	margin-top: 50px;
+}
+
+#inputStuff {
+	display: inline-block;
+}
+
+#listbuilder {
+	width: 300px;
+}
+
+#reset-button {
+	background-color: #BD883D;
+	border: 1px solid #BD883D;
+}
+
+#list {
+	margin-top: 2em;
+}
+
+#list :nth-child(odd) {
+	background-color: #EBEAEB;
+}
+
+.list-group #remove-button {
+	background-color: red;
+	float: right;
+	margin-top: -6px;
+}
+
+.list-group #done-button {
+	float: right;
+	margin-top: -6px;
+	margin-right: 4px;
+}
+
+.list-group-item {
+	padding: 15px 15px;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #999;
+}
+
+#error {
+	margin-top: 1em;
+	display: none;
+}
